@@ -1,0 +1,96 @@
+.page-1, .page-2, .page-3, .page-4{
+    height:100vh;
+      width:100%;
+  }
+  
+  .page-1{
+    background-color:red;
+    animation:bounceIn 5s ease-in-out 1 0s;
+  }
+  
+  .page-2{
+    background-color:blue;
+    animation:bounceIn 5s ease-in-out 1 5.5s;
+  }
+  
+  .page-3{
+    background-color:green;
+    animation:bounceIn 5s ease-in-out 1 10.5s;
+  }
+  
+  .page-4{
+    background-color:yellow;
+    animation:bounceIn 5s ease-in-out 1 16.5s;
+  }
+  
+  .page-1 p{
+    font-family:Lucida Console, Sans Serif;
+    color:grey;
+    padding-top:20%;
+    text-align:center;
+    font-size:50px;
+  }
+  
+  .upper-line{
+    height:50px;
+    width:2px;
+    background-color:black;
+    border:1px solid transparent;
+    border-radius:0px 50px;
+    transform-origin:bottom right;
+    transform: rotate(60deg);
+  }
+  
+  .lower-line{
+    height:50px;
+    width:2px;
+    background-color:black;
+    border:1px solid transparent;
+    border-radius:0px 50px;
+    transform-origin:top right;
+    transform:rotate(-60deg);
+  }
+  
+  .divider{
+    height:80px;
+    width:2px;
+    border:1px solid transparent;
+    background-color:black;
+    transform-origin: bottom right;
+    transform:rotate(30deg);
+    position:absolute;
+    bottom:23%;
+    left:48%;
+  }
+  
+  .upper-line2{
+    height:50px;
+    width:2px;
+    background-color:black;
+    border:1px solid transparent;
+    border-radius:0px 50px;
+    transform-origin:bottom left;
+    transform: rotate(-60deg);
+  }
+  
+  .lower-line2{
+    height:50px;
+    width:2px;
+    background-color:black;
+    border:1px solid transparent;
+    border-radius:0px 50px;
+    transform-origin:top left;
+    transform:rotate(60deg);
+  }
+  
+  #close{
+    position:absolute;
+    right:35%;
+    bottom:20%;
+  }
+  
+  #open{
+    position:absolute;
+    left:35%;
+    bottom:20%;
+  }
